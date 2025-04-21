@@ -1,0 +1,10 @@
+{% extends 'books/base.html' %}
+
+{% block content %}
+<div class="text-center">
+    <h2>👋 Welcome to Book Manager</h2>
+    <p class="lead">Manage your favorite books with ease.</p>
+    <a href="{% url 'login' %}" class="btn btn-primary me-2">🔐 Login</a>
+    <a href="{% url 'register' %}" class="btn btn-success">📝 Register</a>
+</div>
+{% endblock %}
